@@ -1,12 +1,14 @@
 {
   "name": "bot-pinger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "bcryptjs": "latest",
     "express": "latest",
+    "jsonwebtoken": "latest",
     "node-fetch": "latest"
   }
 }
