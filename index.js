@@ -1,9 +1,9 @@
-import express from "express";
-import fs from "fs";
-import fetch from "node-fetch";
-import jwt from "jsonwebtoken";
-import bcrypt from "bcryptjs";
-import dns from "dns/promises";
+const express = require("express");
+const fs = require("fs");
+const fetch = require("node-fetch");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcryptjs");
+const dns = require("dns").promises;
 
 const app = express();
 app.use(express.json());
